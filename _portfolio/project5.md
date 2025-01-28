@@ -1,6 +1,6 @@
 ---
 title: Machine Learning and Artificial Intelligence for Climate Science
-subtitle: Lorem ipsum dolor sit amet consectetur.
+subtitle: Lorem ipsum dolor sit amet consectetur...
 image: assets/img/portfolio/RMM.png
 alt: 
 
