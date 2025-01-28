@@ -13,14 +13,15 @@ fonts_urls:
     - "https://fonts.googleapis.com/css?family=Kaushan+Script"
     - "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
     - "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+    - "https://fonts.googleapis.com/css?family=Quicksand:300"
 
 # Set custom fonts
 fonts:
-  - name: "Montserrat"
+  - name: "Quicksand"
     for: "heading"
-  - name: "Montserrat"
+  - name: "Quicksand"
     for: "script"
-  - name: "Montserrat"
+  - name: "Quicksand"
     for: "serif"
-  - name: "Montserrat"
+  - name: "Quicksand"
     for: "body"
