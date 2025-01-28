@@ -7,7 +7,7 @@ alt:
 caption:
   title: Causal methods in Climate Science
   subtitle: Identity
-  thumbnail: assets/img/portfolio/
+  thumbnail: assets/img/portfolio/causality.png
 ---
 We use a wide range of data and methods and combine 'classical' physical methods with data-based algorithms and statistical methods from causal inference.
 
