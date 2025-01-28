@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     #title: University of Leipzig's
-    text: Climate Causality & Attribution Lab
+    text: # Climate Causality & Attribution Lab
     button: About
     buttonlink: "#about"
 
