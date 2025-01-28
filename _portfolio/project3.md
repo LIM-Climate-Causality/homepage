@@ -1,13 +1,13 @@
 ---
 title: Causal Data Science
 subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/03-full.jpg
+image: assets/img/portfolio/causality.png
 alt: 
 
 caption:
   title: Causal methods in Climate Science
   subtitle: Identity
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  thumbnail: assets/img/portfolio/causality.png
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+We use a wide range of data and methods and combine 'classical' physical methods with data-based algorithms and statistical methods from causal inference.
 
