@@ -22,14 +22,14 @@
     }
   }
   .navbar-nav {
-    margin-left: auto; /* Align navbar items to the right */
+    margin-left: 0; /* Align navbar items to the right */
     .nav-item {
       .nav-link {
         font-size: 90%;
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: white;
+        color: brown;
         @include heading-font;
         &.active,
         &:hover {
@@ -55,7 +55,7 @@
       transition: all 0.3s;
     }
     .navbar-nav {
-      margin-left: auto; /* Ensure navbar items are right-aligned on larger screens */
+      margin-left: 0; /* Ensure navbar items are right-aligned on larger screens */
       .nav-item {
         .nav-link {
           padding: 1.1em 1em !important;
@@ -65,7 +65,8 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $gray-900;
+      background-color: brown;
+      color: white;
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
