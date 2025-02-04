@@ -6,7 +6,7 @@
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: brown;
+    color: white;
     border: 0;
     background-color: $primary;
     @include heading-font;
@@ -22,14 +22,14 @@
     }
   }
   .navbar-nav {
-    margin-left: 0; /* Align navbar items to the right */
+    margin-right: 0; /* Align navbar items to the right */
     .nav-item {
       .nav-link {
         font-size: 90%;
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: brown;
+        color: #922B21;
         @include heading-font;
         &.active,
         &:hover {
@@ -65,7 +65,7 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: brown;
+      background-color: #922B21;
       color: white;
       .navbar-brand {
         font-size: 1.25em;
