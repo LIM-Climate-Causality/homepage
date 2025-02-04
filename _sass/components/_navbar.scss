@@ -2,11 +2,11 @@
 #mainNav {
   background-color: #712119;
   .navbar-toggler {
-    font-size: 12px;
+    font-size: 15px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: #7F8C8D;
     border: 0;
     background-color: transparent;
     @include heading-font;
@@ -18,7 +18,7 @@
     &:active,
     &:focus,
     &:hover {
-      color: darken(#7F8C8D , 10%);
+      color: darken(white , 10%);
     }
   }
   .navbar-nav {
@@ -32,7 +32,7 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: #7F8C8D;
+          color: white;
         }
       }
     }
@@ -49,7 +49,7 @@
     color: #712119;
     background-color: transparent;
     .navbar-brand {
-      font-size: 1.75em;
+      font-size: 2.5em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
