@@ -38,6 +38,9 @@ en: &DEFAULT_EN
         role: "Post-doc"
         image: assets/img/team/500x500.jpg
         bio: "My research focuses on large-scale atmospheric dynamics and their influence on regional climate, with a particular emphasis on droughts. I aim to uncover the causal chains behind extreme events, employing statistical methods and machine learning to improve our understanding of these phenomena and refine model projections of extreme events at a regional scale, providing actionable data to support climate adaptation and resilience strategies. Additionally, I am interested in interactions between the ozone layer and climate, examining both interannual variability and long-term trends."
+        publications:
+          - title: "Springtime arctic ozone depletion forces northern hemisphere climate anomalies"
+            url: "https://www.nature.com/articles/s41561-022-00974-7"
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
