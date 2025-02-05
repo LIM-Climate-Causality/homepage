@@ -43,7 +43,7 @@
             <p><strong>Publications:</strong></p>
             <ul>
               {% for publication in person.publications %}
-                <li><a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a></li>
+                <li><a href="{{ publication.url }}" target="_blank">{{ publication.title }}</a></li>
               {% endfor %}
             </ul>
           </div>
