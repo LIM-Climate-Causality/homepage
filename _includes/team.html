@@ -13,7 +13,9 @@
     <div class="col-sm-4">
       <div class="team-member">
         <!-- Make the image clickable -->
-        <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}" data-toggle="modal" data-target="#bioModal-{{ forloop.index }}">
+          <button type="button" class="btn btn-link p-0" data-toggle="modal" data-target="#bioModal-{{ forloop.index }}">
+          <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}">
+        </button>
         <h4>{{ person.name }}</h4>
         <p class="text-muted">{{ person.role }}</p>
         <ul class="list-inline social-buttons">
@@ -34,7 +36,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="bioModalLabel-{{ forloop.index }}">{{ person.name }}</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <p>{{ person.bio }}</p>
@@ -46,7 +48,7 @@
             </ul>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
