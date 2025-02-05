@@ -1,0 +1,41 @@
+<div class="col-sm-4">
+  <div class="team-member">
+    <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}" data-toggle="modal" data-target="#bioModal-{{ forloop.index }}">
+    <h4>{{ person.name }}</h4>
+    <p class="text-muted">{{ person.role }}</p>
+    <ul class="list-inline social-buttons">
+      {% for network in person.social %}
+        <li class="list-inline-item">
+          <a href="{{ network.url }}">
+            <i class="{{ network.icon }}"></i>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<!-- Bio Modal -->
+<div class="modal fade" id="bioModal-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="bioModalLabel-{{ forloop.index }}" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bioModalLabel-{{ forloop.index }}">{{ person.name }}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>{{ person.bio }}</p>
+        <ul>
+          {% for pub in person.publications %}
+            <li><a href="{{ pub.url }}" target="_blank">{{ pub.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
