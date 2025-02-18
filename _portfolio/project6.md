@@ -1,7 +1,7 @@
 ---
 title:  Regional Climate Change and Extremes
 subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/06-full.jpg
+image: assets/img/portfolio/regional.png
 alt: 
 
 caption:
