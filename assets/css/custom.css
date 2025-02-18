@@ -1,0 +1,10 @@
+header.masthead {
+  height: 80vh; /* Adjust this value */
+  min-height: 400px; /* Prevents it from getting too small */
+}
+
+@media (max-width: 768px) {
+  header.masthead {
+    height: 60vh; /* Adjust height for smaller screens */
+  }
+}
