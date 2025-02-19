@@ -5,9 +5,9 @@ image: assets/img/portfolio/RMM.png
 alt: 
 
 caption:
-  title: AI for Climate Science
+  title: Machine Learning
   subtitle: Projects (...)
-  thumbnail: assets/img/portfolio/RMM.png
+  thumbnail: assets/img/portfolio/stnn.png
 ---
 Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
