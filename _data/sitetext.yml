@@ -71,7 +71,7 @@ en: &DEFAULT_EN
 
   updates:
     title: "Updates"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Any updates that we want to share."
     section: updates
         
   contact:
