@@ -60,7 +60,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Fiona Spuler"
         role: "PhD researcher"
-        image: assets/img/team/fiona_blackandwhite.jpg
+        image: assets/img/team/Fiona_blackandwhite.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
