@@ -1,15 +1,15 @@
-// Styling for the portfolio section
-#portfolio {
-  .portfolio-item {
+// Styling for the team section
+#team {
+  .team-item {
     right: 0;
     margin: 0 0 15px;
-    .portfolio-link {
+    .team-link {
       position: relative;
       display: block;
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
-      .portfolio-hover {
+      .team-hover {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -21,7 +21,7 @@
         &:hover {
           opacity: 1;
         }
-        .portfolio-hover-content {
+        .team-hover-content {
           font-size: 20px;
           position: absolute;
           top: 50%;
@@ -40,7 +40,7 @@
         }
       }
     }
-    .portfolio-caption {
+    .team-caption {
       max-width: 400px;
       margin: 0 auto;
       padding: 25px;
@@ -63,8 +63,8 @@
   }
 }
 @media (min-width: 767px) {
-  #portfolio {
-    .portfolio-item {
+  #team {
+    .team-item {
       margin: 0 0 30px;
     }
   }
