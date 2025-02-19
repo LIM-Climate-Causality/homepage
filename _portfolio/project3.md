@@ -1,11 +1,11 @@
 ---
-title: Causal Data Science
+title: Causal Methods in Climate Science
 subtitle: Lorem ipsum dolor sit amet consectetur.
 image: assets/img/portfolio/causality.png
 alt: 
 
 caption:
-  title: Causal methods in Climate Science
+  title: Causal Data Science
   subtitle: Identity
   thumbnail: assets/img/portfolio/causality.png
 ---
