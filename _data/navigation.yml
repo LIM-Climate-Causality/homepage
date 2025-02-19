@@ -17,6 +17,8 @@ en: &DEFAULT_EN
       section: portfolio
     - title: "People"
       section: team
+    - title: "Publications"
+      section: publications
     - title: "Contact us"
       section: contact
 
