@@ -27,3 +27,11 @@ $primary: #712119; /* Change the primary button color */
 .btn:hover {
   background-color: darken($primary, 10%) !important;
 }
+
+
+.team-group-photo {
+  width: 75%;  /* Make it fill the container */
+  max-width: 1200px;  /* Set a max width */
+  height: auto;
+  margin-bottom: 80px;
+}
