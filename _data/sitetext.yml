@@ -48,9 +48,9 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Frieder Loer"
+      - name: "Philine Lou Bommer"
         role: "PhD researcher"
-        image: 
+        image: assets/img/team/philine.jpeg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
