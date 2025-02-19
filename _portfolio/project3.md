@@ -6,7 +6,7 @@ alt:
 
 caption:
   title: Causal Data Science
-  subtitle: Identity
+  subtitle: Projects (...)
   thumbnail: assets/img/portfolio/causality.png
 ---
 We use a wide range of data and methods and combine 'classical' physical methods with data-based algorithms and statistical methods from causal inference.
