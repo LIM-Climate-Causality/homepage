@@ -8,3 +8,18 @@ header.masthead {
     height: 50vh; /* Adjust height for smaller screens */
   }
 }
+
+
+.portfolio-item img {
+  width: 100%; /* Ensures full width of the container */
+  height: 250px; /* Adjust height as needed */
+  object-fit: cover; /* Ensures images are cropped to fit */
+}
+
+
+.portfolio-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
